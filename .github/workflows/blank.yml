@@ -6,7 +6,7 @@ name: CI
 on:
   workflow_dispatch:
     inputs:
-      request_body: 
+      requestBody: 
         description: 'Request Body'
         required: true
         default: '{}'
@@ -15,7 +15,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  create_jira:
+  createJira:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -27,7 +27,7 @@ jobs:
         with:
           url: 'https://btgtutorials.workflows.oktapreview.com/api/flo/62478006bc8bfc03ea6326b8bad200cb/invoke?clientToken=9347941c61f2ae6679e64b93e55ecd591f39b36f94de04be119092f50a0f2995'
           method: 'POST'
-          data: "${{github.event.input.request_body}}"
+          data: "${{github.event.input.requestBody}}"
           contentType: "application/json"
           customHeaders: '{"z-api-client-token":"tokenvalue"}'
       - name: Show Response
