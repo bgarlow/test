@@ -4,20 +4,18 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
       request_body: 
         description: 'Request Body'
         required: true
-        default: 'warning'
+        default: 'info'
     tags:
       description: 'Test action to call Workflows endpoint'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  create_jira:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -27,11 +25,11 @@ jobs:
         id: myRequest
         uses: fjogeleit/http-request-action@master
         with:
-          url: "https://btgtutorials.workflows.oktapreview.com/api/flo/62478006bc8bfc03ea6326b8bad200cb/invoke?clientToken=9347941c61f2ae6679e64b93e55ecd591f39b36f94de04be119092f50a0f2995"
-          method: "POST"
-          data: "{{github.event.input.request_body}}"
+          url: 'https://btgtutorials.workflows.oktapreview.com/api/flo/62478006bc8bfc03ea6326b8bad200cb/invoke?clientToken=9347941c61f2ae6679e64b93e55ecd591f39b36f94de04be119092f50a0f2995'
+          method: 'POST'
+          data: "${{github.event.input.request_body}}"
           contentType: "application/json"
-          customHeaders: "{'z-api-client-token':'tokenvalue'}"
+          customHeaders: '{"z-api-client-token":"tokenvalue"}'
       - name: Show Response
         run: echo ${{ steps.myRequest.outputs.response }}
           
