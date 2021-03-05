@@ -9,7 +9,7 @@ on:
       request_body: 
         description: 'Request Body'
         required: true
-        default: 'info'
+        default: '{}'
     tags:
       description: 'Test action to call Workflows endpoint'
 
