@@ -1,4 +1,4 @@
-# How to create and submit a Workflows Template
+# How to Create and Submit a Workflows Template
 
 These instructions will walk you through the steps necessary for creating and submitting a Workflows Template to Okta. Be sure to refer to additional pointers in the [Workflows Template Roadmap](https://trello.com/b/gRp3nNHo/workflows-template-roadmap) Trello board for additional tips and pointers.
 
