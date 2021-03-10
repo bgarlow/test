@@ -45,3 +45,16 @@ These instructions will walk you through the steps necessary for creating and su
     *   Any other links that may be helpful, such as code samples, diagrams, screen shots, etc.
 
 ### Setup Documentation
+
+#### Goal: Step-by-step guide for how to get the template up and running.
+
+##### Guidance:
+
+*   Assume the user starts from the installed flowpack/folder - you don’t need to explain navigating to the workflows console, etc.
+*   Includes Okta config (eg create a user with a factor), setting up connections, etc
+*   Does NOT need to include every step on how to build the flow from scratch.
+
+##### Format: 
+
+*   Please use this setup guide template as a starting point: [TODO Update this with the link to the doc template](www.google.com). The template is a markdown document, which is the final format that will be used by the product. Please use this template and attach a link your setup guide in markdown if possible.
+*    If you are unfamiliar with markdown, you can simply copy the body of the template into a Google Doc and attach the link to that document in the Trello card. Or, if you are ambitious you could try converting your Google Doc to markdown by using this Google Doc extension: [https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607.](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607.)
