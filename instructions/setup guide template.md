@@ -1,30 +1,39 @@
-# Title
+# \<Your Template Title Here>
 
 ## Overview
-This is text
 
+This is what the flow does and why it might be valuable to you as a customer. 
 
 ## Prerequisites
-Before you get started, here are the things you’ll need:
-* Access to an Okta tenant with Okta Workflows enabled for your org
-* Custom 'Role' attribute created on Okta's default user profile
 
+Before you get started, here are the things you’ll need:
+
+*   Access to an Okta tenant with Okta Workflows enabled for your org.
+*   Access to a tenant for \[Slack/Salesforce/etc\].
+*   A user/group with the \[blank\] configurations.
 
 ## Setup Steps
-* In the Okta console, go to Apps and select Workflows OAuth application. Click API Scopes, and make sure that okta.roles.manage and okta.roles.read are both granted. If not, click Grant for both of those scopes. 
-* In the Workflows designer, select the “Add User to Admin Role” flow from the folder.
-* If the roles-related scopes were not selected before, click the connection on the Okta card, click the gear icon, and select Reauthorize. Input your client id/secret from the Workflows OAuth app in your Okta console (located on the sign-on tab). 
-* Click Save. Be sure to select “Save All Data”.
-* In the top toolbar of the Workflow console, toggle the “Flow is OFF” switch to “ON”.
 
+This is where you put the step-by-step instructions for how someone might set up this flow. 
+
+1.  First do something.
+    1.  Click here.
+    2.  And then click there.
+2.  Then do something else.
+3.  Finally, do that other thing.
 
 ## Testing this Flow
-This flow expects that a user is created in Okta with their ‘role’ attribute populated. In order to simulate this, we will use a test workflow ‘Test Flow: Create Okta User’ that leverages Okta’s ‘Create User’ card to create a test user.
-* Open the flow ‘Test Flow: Create Okta User’. In the ‘Create User’ card, set the values for first name, last name, username and primary email as desired. Set the role as ‘Support’. Click the ‘Test’ button to run the flow.
-* Open ‘Add User to Admin Role’ flow and view Flow History. You should see a successful flow run.
-* Go to Okta admin console and review the list of administrators under Security -> Administrators tab.
-* You should see the newly created user listed with the 'Help Desk Admin' role.
 
+This is how a builder might test the flow. Here’s what it will look like when it’s working. 
+
+1.  First do something.
+2.  Open your flow and view Flow History.
+3.  Then go to your other tenant and you should see something.
 
 ## Limitations & Known Issues
-Please note that all Okta cards, including Custom API Action, will be subjected to org level rate limits per API endpoint.
+
+This is where you might note to the customer any known issues, edge cases, or gotchas as they think about using the flow in a real-life scenario. 
+
+*   Limitation 1
+*   Known Issue 2
+*   etc
