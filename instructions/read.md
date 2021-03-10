@@ -54,7 +54,22 @@ These instructions will walk you through the steps necessary for creating and su
 *   Includes Okta config (eg create a user with a factor), setting up connections, etc
 *   Does NOT need to include every step on how to build the flow from scratch.
 
-##### Format: 
+##### Format:
 
 *   Please use this setup guide template as a starting point: [TODO Update this with the link to the doc template](www.google.com). The template is a markdown document, which is the final format that will be used by the product. Please use this template and attach a link your setup guide in markdown if possible.
-*    If you are unfamiliar with markdown, you can simply copy the body of the template into a Google Doc and attach the link to that document in the Trello card. Or, if you are ambitious you could try converting your Google Doc to markdown by using this Google Doc extension: [https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607.](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607.)
+*   If you are unfamiliar with markdown, you can simply copy the body of the template into a Google Doc and attach the link to that document in the Trello card. Or, if you are ambitious you could try converting your Google Doc to markdown by using this Google Doc extension: [https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607.](https://gsuite.google.com/marketplace/app/docs_to_markdown/700168918607.)
+
+### Video Walk-Through
+
+#### Goal: Basically a live version of the setup guide. Don’t go and build it - just set it up, test it, and talk through why you built the flow that way and what it can achieve for customers.
+
+##### Guidance:
+
+*   Length: 5 to 10 minutes
+*   We recommend using [Loom](www.loom.com) as it shows your face for a more personal presentation.
+*   Monitors are getting better - make sure you zoom in
+*   Will eventually be hosted on Youtube
+
+## Submission Process
+
+If you would like to make a suggestion for a new Workflows Template but aren't interested in building and submitting it yourself, you can make a suggestion directly in the product from the Templates page. If you would like to contribute a template,  you can reach out to the [Workflows Team](mailto:workflows@okta.com). We'll evaluate your idea for use case fit and value to customers. We use a Trello board [Workflows Template Roadmap](https://trello.com/b/gRp3nNHo/workflows-template-roadmap) to track Template suggestions and in-flight Templates. If your Template idea is accepted, we'll add a card and assign you to it. That's where you'll end up attaching links to the artifacts mentioned above. There will be additional instructions and information about the process on the board.
