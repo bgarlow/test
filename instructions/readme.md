@@ -4,7 +4,7 @@ The following are guidelines for the various files needed to submit a Workflows 
 
 ## Core Elements of a Workflows Template
 
-These following are the component files and Trello card fields that you will need to provide in order to submit a Template to Okta.
+These following are the component files and Trello card fields that you will need to provide in order to submit a Template to Okta. Please refer to this document when preparing your flowpack, setup guide, and video walkthrough as well as for tips on how to enter the Template title and description on the associated Trello card.
 
 ---
 
@@ -23,6 +23,8 @@ This is the actual .flowpack or .folder file that you export from Okta using the
 
 ### Title
 
+This is the Template title that will be displayed in the product.
+
 #### Goal: This is what a customer will see when they’re browsing the catalog.
 
 ##### Guidance:
@@ -31,7 +33,11 @@ This is the actual .flowpack or .folder file that you export from Okta using the
 *   Active voice, start with a verb
 *   Limit: 72 characters
 
+---
+
 ### Description
+
+This is the Template description that will be displayed in the product.
 
 #### Goal: What it does, why it’s valuable, and how the template works.
 
@@ -40,16 +46,18 @@ This is the actual .flowpack or .folder file that you export from Okta using the
 *   3 to 5 sentences
 *   Can be the same as your Overview section of your doc (below)
 
+---
+
 ### Links
 
 #### Goal: Attach links to the following files to the Trello card for your Template.
 
 ##### Guidance:
 
-*   Please provide links with friendly names to the Trello card versus attachments from your computer. Links from Google Drive, Box, GitHub, etc. are acceptable as long as we have access to them.
-    *   Link to your setup guide (either a Google Doc or a markdown document named read.md).
-    *   Link to your Flowpack
-    *   Link to your video walk-through
+*   Please provide links to your files using the "Attachment" button on the Trello card. Links from Google Drive, Box, GitHub, etc. are acceptable as long as we have access to them.
+    *   Link to your **Setup Guide** (either a Google Doc or a markdown document named read.md).
+    *   Link to your **Flowpack**
+    *   Link to your **Video Walk-Through**
     *   Any other links that may be helpful, such as code samples, diagrams, screen shots, etc.
 
 ### Setup Documentation
