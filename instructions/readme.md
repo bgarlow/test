@@ -1,10 +1,16 @@
-# How to Create and Submit a Workflows Template
+# Guidelines for Workflows Template Submissions
 
-These instructions will walk you through the steps necessary for creating and submitting a Workflows Template to Okta. Be sure to refer to additional pointers in the [Workflows Template Roadmap](https://trello.com/b/gRp3nNHo/workflows-template-roadmap) Trello board for additional tips and pointers.
+The following are guidelines for the various files needed to submit a Workflows Template to Okta. 
 
 ## Core Elements of a Workflows Template
 
+These following are the component files and Trello card fields that you will need to provide in order to submit a Template to Okta.
+
+---
+
 ### The Flowpack
+
+This is the actual .flowpack or .folder file that you export from Okta using the "Export" command on the folder in Workflows. Please rename this file to "workflow.flowpack" or "workflow.folder--depending on the original file extension--before attaching to the Trello card.
 
 #### Goal: Build the use case in a way that’s not only functional, but understandable to someone seeing it for the first time. 
 
@@ -12,6 +18,8 @@ These instructions will walk you through the steps necessary for creating and su
 
 *   Major steps should be annotated using the “Notes” feature.
 *   Make sure it aligns to the list of [supported use cases](https://help.okta.com/en/prod/Content/Topics/Workflows/workflows-main.htm?cshid=ext-Okta-workflows).
+
+---
 
 ### Title
 
